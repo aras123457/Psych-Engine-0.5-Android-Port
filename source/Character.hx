@@ -17,12 +17,12 @@ import haxe.format.JsonParser;
 
 using StringTools;
 
-typedef CharacterFile = {
-	var animations:Array<AnimArray>;
-	var image:String;
-	var scale:Float;
-	var sing_duration:Float;
-	var healthicon:String;
+typedef CharacterFile = {huggy.png
+	var animationsHuggyidleHuggynotedownHuggynoteleftHuggynoterightHuggynoteup:Array<AnimArray>;
+	var image:String;huggy.
+	var scale:Float;0
+	var sing_duration:Float;1
+	var healthicon:String;huggy
 
 	var position:Array<Float>;
 	var camera_position:Array<Float>;
@@ -75,8 +75,8 @@ class Character extends FlxSprite
 	public var healthColorArray:Array<Int> = [255, 0, 0];
 	public var alreadyLoaded:Bool = true; //Used by "Change Character" event
 
-	public static var DEFAULT_CHARACTER:String = 'bf'; //In case a character is missing, it will use BF on its place
-	public function new(x:Float, y:Float, ?character:String = 'bf', ?isPlayer:Bool = false)
+	public static var DEFAULT_CHARACTER:String = 'huggy'; //In case a character is missing, it will use huggy on its place
+	public function new(x:Float, y:Float, ?character:String = 'huggy', ?isPlayer:Bool = false)
 	{
 		super(x, y);
 
