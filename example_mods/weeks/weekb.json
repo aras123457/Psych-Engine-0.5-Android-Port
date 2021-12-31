@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"fired",
+			"benson",
+			[
+				255,
+				212,
+				51
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "benson",
+	"weekCharacters": [
+		"benson",
+		"gf",
+		"bf"
+	],
+	"storyName": "vs benson",
+	"weekName": "vs benson",
+	"freeplayColor": [
+		255,
+		212,
+		51
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
